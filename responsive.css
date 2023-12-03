@@ -1,0 +1,153 @@
+/* tablet */
+@media (max-width: 848px) {
+    .head {
+        margin-left: 90px;
+    }
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+    aside img {
+        align-items: center;
+        margin-left: 270px;
+        width: 320px;
+        height: 300px;
+    }
+    .image img {
+        align-items: center;
+        margin-left: 270px;
+        margin-top: 60px;
+        width: 320px;
+        height: 300px;
+    }
+    .service {
+        width: 120%;
+        height: 55vh;
+    }
+    .service-text {
+        margin-left: 2%;
+    }
+    .service-product {
+        flex-direction: column;
+        margin-left: 140px;
+        font-size: 23px;
+    }
+    .service-product img {
+        width: 150px;
+    }
+    .featured {
+        width: 120%;
+        height: 140vh;
+    }
+    .featured-text {
+        margin-left: 20px;
+    }
+    .featured-product {
+        margin-left: 100px;
+    }
+    .provide {
+        width: 120%;
+        height: 105vh;
+    }
+    .provide-items {
+        flex-direction: column;
+    }
+    .provide-image img {
+        width: 300px;
+        height: 280px;
+        text-align: center;
+        align-items: center;
+        margin-left: 90px;
+    }
+    .provide-text {
+        margin-left: -160px;
+    }
+    footer {
+        width: 120%;
+        height: 53vh;
+    }
+    .left-text {
+        margin-right: -30px;
+    }
+    .center-text {
+        margin-right: -40px;
+    }
+    .center2-text {
+        margin-right: -10px;
+    }
+    .right-text {
+        margin-right: 75px;
+    }
+}
+
+/* android*/
+@media (max-width: 652px) {
+    .header {
+        margin-left: 120px;
+    }
+    main {
+        width: 130%;
+    }
+    .container {
+        width: 92%;
+    }
+    .container h1 {
+        font-size: 47px;
+        margin-left: -110px;
+    }
+    .container button {
+        padding: 5px 30px;
+        margin-left: -110px;
+    }
+    aside img {
+        display: none;
+    }
+    .image {
+        margin-left: -80px;
+        margin-top: -50px;
+    }
+    .service {
+        width: 130%;
+        height: 55vh;
+    }
+    .service-product {
+        margin-left: 55px;
+    }
+    .featured {
+        width: 130%;
+        height: 175vh;
+    }
+    .featured-product {
+        margin-left: 160px;
+    }
+    .provide {
+        width: 130%;
+        height: 112vh;
+    }    
+    .provide-image img {
+        width: 420px;
+        height: 350px;
+        margin-left: -50px;
+    }
+    .provide-text {
+        margin-top: -30px;
+    }
+    .provide-text h1 {
+        font-size: 40px;
+    }
+    footer {
+        width: 130%;
+        height: 55vh;
+    }
+    .footer {
+        flex-direction: column;
+        margin-left: 50px;
+    }
+    .p {
+        padding: 20px 20px;
+        margin-left: 20px;
+    }
+    .copyright-text {
+        margin-left: -25px;
+    }
+}
